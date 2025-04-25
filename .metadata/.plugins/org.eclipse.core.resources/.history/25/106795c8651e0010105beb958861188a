@@ -1,0 +1,19 @@
+package chapter06;
+
+public class Example_person {
+	String name;
+	float height;
+	float weight;
+	
+	public Example_person(String name, float height, float weight)
+	{
+		this.name = name;
+		this.height = height;
+		this.weight = weight;
+	}
+	
+	public String toString()
+	{
+		return "이름은 "+name + ", 키는 " + height + ", 몸무게는 " + weight;
+	}
+}

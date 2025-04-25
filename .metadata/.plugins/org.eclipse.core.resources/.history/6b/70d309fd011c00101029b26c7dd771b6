@@ -1,0 +1,10 @@
+package chapter06;
+
+import javax.swing.JOptionPane;
+
+public class SungJuk {
+	public static void main(String[] args)
+	{
+		rec.std_num = JOptionPane.showInputDialog("학번");
+	}
+}

@@ -1,0 +1,53 @@
+package chapter04;
+
+public class ArrayTest_07 {
+
+	public static void main(String[] args) {
+		
+		char[] alpa=new char[26];
+		char ch='A'; //65
+		/*alpa[0]=ch;
+		alpa[1]=++ch;
+		alpa[2]=++ch;
+		alpa[3]=++ch;
+		alpa[4]=++ch;
+		alpa[5]=++ch;
+		alpa[6]=++ch;
+		alpa[7]=++ch;
+		alpa[8]=++ch;
+		alpa[9]=++ch;
+		alpa[10]=++ch;
+		alpa[11]=++ch;
+		alpa[13]=++ch;
+		alpa[14]=++ch;
+		alpa[15]=++ch;
+		alpa[16]=++ch;
+		alpa[17]=++ch;
+		alpa[18]=++ch;
+		alpa[19]=++ch;
+		alpa[20]=++ch;
+		alpa[21]=++ch;
+		alpa[22]=++ch;
+		alpa[23]=++ch;
+		alpa[24]=++ch;
+		alpa[25]=++ch;
+		alpa[26]=++ch;
+		*/
+		/*
+		for(int i=0;i<alpa.length;i++) {
+			alpa[i]=ch;
+			ch++;
+			System.out.print(alpa[i] + " ");
+		}
+		*/
+		for(int i=0;i<alpa.length;i++,ch++) {
+			alpa[i]=ch;
+			System.out.print(alpa[i] + " ");
+		}
+		
+		
+		
+
+	}
+
+}

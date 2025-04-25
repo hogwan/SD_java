@@ -1,0 +1,12 @@
+package chapter08;
+
+public class InheritanceMain {
+	public static void main(String[] args)
+	{
+		StrawBerry obj = new StrawBerry();
+		obj.set1("Berry", "Summer");
+		obj.set2("딸기", "대");
+		obj.set3("빨간색", 10000);
+		
+	}
+}

@@ -1,0 +1,6 @@
+package chapter08;
+
+public class Fruit_01 {
+	private String sort;
+	private String season;
+}

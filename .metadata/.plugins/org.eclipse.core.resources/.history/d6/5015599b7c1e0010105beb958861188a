@@ -1,0 +1,6 @@
+package chapter07;
+
+public class Guide_04 {
+	static String point;
+	Guest[] guest;
+}

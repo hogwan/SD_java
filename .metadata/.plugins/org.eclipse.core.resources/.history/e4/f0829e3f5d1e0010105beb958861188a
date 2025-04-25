@@ -1,0 +1,16 @@
+package chapter06;
+
+public class UpDown {
+	
+	int num;
+	
+	public UpDown()
+	{
+		num = (int)(Math.random()*49) + 1;
+	}
+	
+	String check(int select)
+	{
+		if(num == select) return "Success";
+	}
+}

@@ -1,0 +1,12 @@
+package chapter06;
+
+public class Example_person {
+	String name;
+	float height;
+	float weight;
+	
+	public String toString()
+	{
+		
+	}
+}

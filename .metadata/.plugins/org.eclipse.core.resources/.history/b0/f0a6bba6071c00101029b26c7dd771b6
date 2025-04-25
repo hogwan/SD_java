@@ -1,0 +1,7 @@
+package chapter06;
+
+public class AccessTest {
+	public static void main(String[] args) {
+		SungJuk s = new SungJuk();
+	}
+}

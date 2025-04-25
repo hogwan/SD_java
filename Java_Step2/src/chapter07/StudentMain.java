@@ -1,0 +1,18 @@
+package chapter07;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		//studentLee
+		Student_03 studentLee = new Student_03();
+		studentLee.setStudentName("이수정");
+		System.out.println(studentLee.StudentName);
+		System.out.println(studentLee.studentID);
+		
+		System.out.println();
+		Student_03 studentKim = new Student_03();
+		studentKim.setStudentName("김우성");
+		System.out.println(studentKim.StudentName);
+		System.out.println(studentKim.studentID);
+	
+	}
+}

@@ -1,0 +1,8 @@
+package chapter06;
+
+public class Example_personMain {
+	public static void main(String[] args)
+	{
+		
+	}
+}

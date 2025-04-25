@@ -1,0 +1,9 @@
+package chapter08;
+
+public class StudentMain {
+	public static void main(String[] args)
+	{
+		People studentLee = new Student("이경속","0102356988", 4521);
+		System.out.println(studentLee);
+	}
+}

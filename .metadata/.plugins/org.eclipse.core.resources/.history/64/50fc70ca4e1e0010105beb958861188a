@@ -1,0 +1,9 @@
+package chapter06;
+
+public class TakeTrans {
+	public static void main(String[] args)
+	{
+		StdInfo studentJames = new StdInfo("James", 10000);
+		StdInfo studentTom = new StdInfo("Tom", 10000);
+	}
+}

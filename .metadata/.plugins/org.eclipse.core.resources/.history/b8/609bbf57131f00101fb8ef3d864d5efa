@@ -1,0 +1,6 @@
+package chapter08;
+
+public class Berry {
+	private String name;
+	private String size;
+}

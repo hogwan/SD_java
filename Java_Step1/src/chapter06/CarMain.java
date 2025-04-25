@@ -1,0 +1,10 @@
+package chapter06;
+
+public class CarMain {
+	public static void main(String[] args)
+	{
+		Car_04 car = new Car_04();
+		car.print();
+		car.setSpeed(40);
+	}
+}

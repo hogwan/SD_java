@@ -1,0 +1,15 @@
+package chapter12.hashcode;
+
+import java.util.HashMap;
+
+public class KeyMain {
+	public static void main(String[] args) {
+
+		HashMap<Key, String> hashmap = new HashMap<>();
+
+		hashmap.put(new Key(1), "홍길동");
+		hashmap.put(new Key(1), "홍길동");
+		System.out.println(hashmap);
+
+	}
+}

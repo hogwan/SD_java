@@ -1,0 +1,7 @@
+package chapter08;
+
+public class Washer extends Appliance {
+	public Washer() {
+		super(brand);
+	}
+}

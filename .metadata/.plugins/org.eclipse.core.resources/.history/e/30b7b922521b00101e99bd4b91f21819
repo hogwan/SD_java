@@ -1,0 +1,20 @@
+package chapter05;
+
+public class FuncTest_Overload_main {
+
+	public static void main(String[] args) {
+		 
+		FuncTest_Overload_08 obj=new FuncTest_Overload_08();
+		
+		obj.getResult(5);
+		
+		obj.getResult('C');
+		
+		obj.getResult("good");
+		
+		obj.getResult(8, "str");
+		
+		
+	}
+
+}

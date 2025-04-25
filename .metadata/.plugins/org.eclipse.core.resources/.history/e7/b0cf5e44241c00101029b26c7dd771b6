@@ -1,0 +1,20 @@
+package chapter06;
+
+public class StudentInfo {
+	//멤버변수=필드
+	int studentID;
+	private String studentName;
+	int grade;
+	String address;
+	
+	//생성자
+	public StudentInfo(int id, String name, int grade, String address)
+	{
+		this.studentID = id;
+		this.studentName = name;
+		this.grade = grade;
+		this.address = address;
+	}
+	
+	//생성자 오버로딩
+}

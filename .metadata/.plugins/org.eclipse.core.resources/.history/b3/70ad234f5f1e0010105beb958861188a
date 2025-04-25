@@ -1,0 +1,18 @@
+package chapter06;
+
+public class UpDown {
+	
+	private int pcnum;
+	
+	public UpDown()
+	{
+		num = (int)(Math.random()*49) + 1;
+	}
+	
+	String check(int select)
+	{
+		if(num == select) return "Success";
+		else if(num > select) return "Up";
+		else return "Down";
+	}
+}

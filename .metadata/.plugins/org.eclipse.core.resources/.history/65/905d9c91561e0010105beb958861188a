@@ -1,0 +1,6 @@
+package chapter06;
+
+public class Can {
+	private String canName;
+	private int price;
+}

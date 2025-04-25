@@ -1,0 +1,20 @@
+package chapter08;
+
+public class Berry extends Fruit_01{
+	private String name;
+	private String size;
+	private String sort;
+	private String season;
+	
+	public void set1(String name, String size)
+	{
+		super.set1(name, season);
+		this.sort = sort;
+		this.season = season;
+	}
+	
+	public void Disp1() {
+		System.out.println("분류 : " + sort);
+		System.out.println("계절 : " + season);
+	}
+}

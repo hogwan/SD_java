@@ -1,0 +1,15 @@
+package chapter06;
+
+public class MyDateMain {
+	public static void main(String[] args)
+	{
+		MyDate_03 date = new MyDate_03();
+		
+		date.setYear(2025);
+		date.setMonth(4);
+		date.setDay(18);
+		
+		float a = 5.7f%2.f;
+		System.out.println(a);
+	}
+}

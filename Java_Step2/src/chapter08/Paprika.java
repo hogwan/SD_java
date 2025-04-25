@@ -1,0 +1,30 @@
+package chapter08;
+
+public class Paprika extends Vegetable_02{
+	String color;
+	int price;
+	String name;
+	
+	public void Set2(String color, int price, String name) {
+		this.color = color;
+		this.price = price;
+		this.name = name;
+	}
+	
+	public void Disp1() {
+		System.out.println("------Vegetable-----");
+		System.out.println("분류 : " + sort);
+		System.out.println("계절 : " + season);
+		
+		//부모클래스의 기본 생성자(super)
+		System.out.println("이름 : " + super.name);
+	}
+	
+	public void Disp2() {
+		System.out.println("------Paprika-----");
+		System.out.println("색깔 : " + color);
+		System.out.println("가격 : " + price);
+
+		System.out.println("이름 : " + name);
+	}
+}

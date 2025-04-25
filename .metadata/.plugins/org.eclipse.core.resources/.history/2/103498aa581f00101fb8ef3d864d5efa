@@ -1,0 +1,11 @@
+package chapter09;
+
+public class PhoneMain {
+	public static void main(String[] args) {
+		//Phone phone = new Phone("aa"); // 추상클래스이므로 객체 생성안됨
+		
+		SmartPhone smartPhone = new SmartPhone("김자바");
+		
+		System.out.println(smartPhone.owner + "님");
+	}
+}

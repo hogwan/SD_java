@@ -1,0 +1,17 @@
+package chapter06;
+
+public class Car_04 {
+	String company = "기아";
+	String model = "k5";
+	String color = "흰색";
+	int maxSpeed = 280;
+	int speed;
+	
+	void print()
+	{
+		System.out.println("제작회사:" + company);
+		System.out.println("모델명: " + model);
+		System.out.println("색깔: " + color);
+		System.out.println("최고 속도: " + maxSpeed);
+	}
+}

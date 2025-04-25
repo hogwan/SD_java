@@ -1,0 +1,16 @@
+package chapter08;
+
+public class StraawBerry extends Berry {
+	private String color;
+	private String price;
+
+	public void set3(String color, String price) {
+		this.color = color;
+		this.price = price;
+	}
+
+	public void Disp3() {
+		System.out.println("분류 : " + color);
+		System.out.println("계절 : " + price);
+	}
+}

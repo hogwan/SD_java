@@ -1,0 +1,23 @@
+package chapter06;
+
+public class StudentInfoMain {
+	public static void main(String[] args)
+	{
+		StudentInfo info = new StudentInfo(1,"name",1,"address");
+		System.out.println(info.studentID);
+		System.out.println(info.grade);
+		System.out.println(info.address);
+		//System.out.println(info.studentName);
+		
+		System.out.println(info.getStudentName());
+		System.out.println();
+		
+		//기본 생성자를 이용해서 객체 생성(studentkim)
+		StudentInfo studentkim = new StudentInfo();
+		studentkim.setStudentName("김관호");
+		System.out.println("이름은: " +studentkim.getStudentName());
+		
+		StudentInfo studentlee = new StudentInfo();
+		Studentlee.getStudentName();
+	}
+}

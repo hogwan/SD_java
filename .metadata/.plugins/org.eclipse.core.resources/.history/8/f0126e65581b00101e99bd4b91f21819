@@ -1,0 +1,28 @@
+package chapter05;
+
+public class Pastry_09 {
+	
+	//멤버변수
+	
+	//생성자
+	
+	//메서드
+	public void makeBread() {
+		System.out.println("빵을 만듭니다.");
+	}
+	public void makeBread(int cnt) {
+		for(int i=1;i<=cnt;i++) {
+			System.out.println(i+"번째 빵을 만듭니다.");
+		}
+		System.out.println("요청하신 "+cnt+"개의 빵이 모두 완성되었습니다.");
+		
+	}
+	public void makeBread(int cnt,String name) {
+		for(int i=1;i<=cnt;i++) {
+			System.out.println(i+"번째 \"+name+\"빵을 만듭니다.");
+		}
+		System.out.println("요청하신 "+cnt+"개의 "+name+"빵이 모두 완성되었습니다.");
+		
+	}
+	
+}

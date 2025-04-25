@@ -1,0 +1,8 @@
+package chapter07;
+
+public class CompanyMain {
+	public static void main(String[] args)
+	{
+		Company_05 company1 = new Company_05();
+	}
+}

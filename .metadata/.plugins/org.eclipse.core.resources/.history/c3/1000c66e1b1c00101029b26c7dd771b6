@@ -1,0 +1,10 @@
+package chapter06;
+
+public class TeamMember {
+	public String teamName;
+	public String mName;
+	public String mPhone;
+	public String sName;
+	public String name;
+	public String gender;
+}

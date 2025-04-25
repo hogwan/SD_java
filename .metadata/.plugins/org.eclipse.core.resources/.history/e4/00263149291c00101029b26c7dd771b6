@@ -1,0 +1,15 @@
+package chapter06;
+
+public class StudentInfoMain {
+	public static void main(String[] args)
+	{
+		StudentInfo info = new StudentInfo(1,"name",1,"address");
+		System.out.println(info.studentID);
+		System.out.println(info.grade);
+		System.out.println(info.address);
+		
+		System.out.println(info.getStudentName());
+		
+		const int a = 10;
+	}
+}

@@ -1,0 +1,15 @@
+package chapter08;
+
+public class People {
+	public String name;
+	public String ssn;
+	public People(String name, String ssn) {
+		this.name = name;
+		this.ssn = ssn;
+	}
+	
+	public String toString()
+	{
+		return "이름 : " + name + ", 전화번호 : " + ssn;
+	}
+}

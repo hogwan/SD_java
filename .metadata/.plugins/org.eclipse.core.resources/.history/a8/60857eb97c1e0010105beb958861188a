@@ -1,0 +1,14 @@
+package chapter07;
+
+public class Guide_04 {
+	
+	// 멤버변수
+	static String point;
+	Guest[] guest;
+	Scanner scan;
+	
+	//생성자
+	public Guide_04(int n) {
+		
+	}
+}

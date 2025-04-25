@@ -1,0 +1,17 @@
+package chapter08;
+
+public class Berry extends Fruit_01{
+	private String sort;    // 분류 
+	private String season;  // 계절 과일
+	
+	public void set1(String sort, String season)
+	{
+		this.sort = sort;
+		this.season = season;
+	}
+	
+	public void Disp1() {
+		System.out.println("분류 : " + sort);
+		System.out.println("계절 : " + season);
+	}
+}

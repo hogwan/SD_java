@@ -1,0 +1,17 @@
+package chapter08;
+
+public class StraawBerry {
+	private String color;
+	private String price;
+	
+	public void set3(String sort, String season)
+	{
+		this.sort = sort;
+		this.season = season;
+	}
+	
+	public void Disp3() {
+		System.out.println("분류 : " + sort);
+		System.out.println("계절 : " + season);
+	}
+}

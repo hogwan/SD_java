@@ -1,0 +1,9 @@
+package chapter09;
+
+public class Phone {
+	public String owner;
+	
+	public Phone(String owner) {
+		this.owner = owner;
+	}
+}

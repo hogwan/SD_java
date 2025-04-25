@@ -1,0 +1,13 @@
+package chapter08;
+
+public class Paprika extends Vegetable_02{
+	String color;
+	int price;
+	String name;
+	
+	public void Set2(String color, int price, String name) {
+		this.color = color;
+		this.price = price;
+		this.name = name;
+	}
+}

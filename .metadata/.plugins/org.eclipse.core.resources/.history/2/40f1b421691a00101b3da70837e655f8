@@ -1,0 +1,37 @@
+package chapter01;
+
+public class A_Test {
+
+	public static void main(String[] args) {
+		int one=1;
+		int two=2;
+		
+		boolean oneTwo=one<two;
+		if(oneTwo) {
+		System.out.println("맞음");
+		}else {
+			System.out.println("아님");
+		}
+		
+		String a="Hello";
+		String b="Bye";
+		String a2="Hello Java Hello";
+		
+		System.out.println(a.equals(b)); //문자열 값의 비교에는 equals를 사용
+		System.out.println(a2.replaceAll("Hello","Bye"));
+		
+		String[] week={"월,화,수,목,금,토,일"};
+		String[] Week=week.split(",");
+		String WeeK1 = Week[1];
+		String WeeK2 = Week[2];
+		String WeeK3 = Week[3];
+		String WeeK4 = Week[4];
+		String WeeK5 = Week[5];
+		String WeeK6 = Week[6];
+		String WeeK7 = Week[7];
+		System.out.println("WeeK1= "+WeeK1);
+		
+		
+	}
+
+}

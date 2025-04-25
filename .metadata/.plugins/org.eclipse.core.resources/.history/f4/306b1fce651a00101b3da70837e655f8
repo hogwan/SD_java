@@ -1,0 +1,18 @@
+package chapter04;
+
+public class ArrayTest_04 {
+
+	public static void main(String[] args) {
+		
+		double[] data=new double[5];
+		
+		//3개만 요소대입
+		data[0]=10.0;
+		data[1]=20.0;
+		data[2]=30.0;
+
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package chapter05;
+
+public class MyLotto_14 {
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	public static boolean contains(int[] arr, int num)
+	{
+		for(int i : arr)
+		{
+			if(i == num) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+}

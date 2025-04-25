@@ -1,0 +1,11 @@
+package chapter06;
+
+import java.util.Calendar;
+
+public class EnumWeekMain_11 {
+	public static void main(String[] args)
+	{
+		Week today = null;
+		Calendar cal = Calendar.getInstance();
+	}
+}

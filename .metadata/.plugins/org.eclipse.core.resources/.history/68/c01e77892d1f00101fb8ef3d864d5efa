@@ -1,0 +1,21 @@
+package chapter08;
+
+public class SportsCar extends Car {
+
+	@Override
+	public void speedUp() {
+		speed += 10;
+		System.out.println("speed: " + speed);
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		super.stop();
+	}
+
+	public static void main(String[] args)
+	{
+		
+	}
+}

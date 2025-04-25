@@ -1,0 +1,12 @@
+package chapter05;
+
+public class MethodTest_101 {
+	 
+	void printHello() {
+		System.out.println("Hello Java.");
+
+	// 메서드
+
+	}
+
+}

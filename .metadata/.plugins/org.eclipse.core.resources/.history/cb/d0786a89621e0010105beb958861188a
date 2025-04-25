@@ -1,0 +1,8 @@
+package chapter06;
+
+public class EnumWeekMain_11 {
+	public static void main(String[] args)
+	{
+		Week today = null;
+	}
+}

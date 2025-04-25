@@ -1,0 +1,6 @@
+package chapter08;
+
+public class CellPhone {
+	String model;
+	String color;
+}

@@ -1,0 +1,13 @@
+package chapter05;
+
+public class MethodTest_10 {
+
+	// 메서드
+	public static void main(String[] args) {
+		
+		MethodTest_101 printHello=new MethodTest_101();
+		printHello.printHello();
+
+	}
+
+}
